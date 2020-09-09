@@ -306,13 +306,13 @@ font-size: 25px;
 }
 .twitter, i {
 color: $if(affiliation_textcol)$$affiliation_textcol$$else$#00000060$endif$;
-font-size: 35px;
+font-size: $if(author_textsize)$$author_textsize$$else$35px$endif$;
 text-decoration: none;
 }
 a.email {
 text-decoration: none;
 color: $if(affiliation_textcol)$$affiliation_textcol$$else$#00000060$endif$;
-font-size: 35px;
+font-size: $if(author_textsize)$$author_textsize$$else$35px$endif$;
 }
 .envelope {
 color: $if(affiliation_textcol)$$affiliation_textcol$$else$#00000060$endif$;
