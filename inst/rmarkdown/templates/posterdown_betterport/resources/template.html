@@ -200,13 +200,13 @@ sup {
 color: $if(accent_colour)$$accent_colour$$else$#cc0000$endif$;
 }
 .affiliation sup {
-font-size: 20px;
+font-size: $if(affiliation_textsize)$$affiliation_textsize$$else$20px$endif$;
 }
 .author {
 text-align: left;
 }
 .author sup {
-font-size: 30px;
+font-size: $if(author_textsize)$$author_textsize$$else$30px$endif$;
 }
 .author_extra {
 color: $if(secondary_colour)$$secondary_colour$$else$#008080$endif$;
